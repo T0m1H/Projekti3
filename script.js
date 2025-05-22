@@ -6,7 +6,7 @@ $(document).ready(function() {
                 <li>
                     <input type="checkbox" class="complete">
                     <span class="task">${taskText}</span>
-                    <button class="delete">❌</button>
+                    <button class="delete">X</button>
                 </li>
             `);
             $("#taskInput").val(""); // Tyhjennä syöttökenttä
